@@ -78,11 +78,12 @@
 .active-image{
     background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_960_720.png");
     width: 700px;
-    height: 700px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin: 0 20px;
+    border-bottom: 1px solid #d6d6d6;
 }
 .product-right-item{
   width: 350px;
@@ -366,4 +367,51 @@
 }
 .delivery-last{
     margin-left: 3px;
+}
+.images-content{
+    display: flex;
+    
+}
+.more-products{
+    margin: 40px 35px;
+}
+.more-products h1{
+    font-weight: 300;
+}
+.more-products-items{
+    display: flex;
+    flex-direction: row;
+}
+.more-products-item{
+    width: 210px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    -webkit-box-shadow: -1px 9px 10px -2px #adadad; 
+    box-shadow: 0px 1px 5px -2px #adadad;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.more-products-item:hover{
+    -webkit-box-shadow: -1px 9px 10px -2px #4F4F4F; 
+    box-shadow: 0px 1px 5px -2px #4F4F4F;
+}
+.more-products-item p{
+    padding: 3px 0;
+    width: 100%;
+}
+.text-more{
+    border-top: 1px solid #d6d6d6;
+    padding-top: 15px;
+}
+.price-more{
+    font-size: 22px;
+}.green-more{
+    color: var(--reputation-5);  
+    font-size: 14px;  
+    font-weight: 500;
+}
+.description-more{
+    color: var(--color-gray);
+    font-size: 13px;
+    text-align: justify;
 }

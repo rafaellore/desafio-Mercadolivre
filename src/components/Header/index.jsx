@@ -10,9 +10,12 @@ export default function Header() {
     return (
         <header>
             <div className="left-side">
+                <div className="icon-mercado">
                 <img src="https://yata-apix-7cec2e1b-07a2-4ae2-bc7f-8554bb9930c0.lss.locawebcorp.com.br/ee581661c0af40e48cfd070de3258f72.png"
-                height="40px" width="60px"
+                height="35px" width="50px"
                 />
+                <p>mercado<br/>livre</p>
+                </div>
                 <div className="marker">
                     <div className="icon-marker">
                     <GiPositionMarker size={25}/>

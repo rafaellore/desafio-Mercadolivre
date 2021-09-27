@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Harabara Mais;
+    src: url('./Harabara\ Mais\ Demo.otf');
+}
 header{
     width: 100%;
     display: flex;
@@ -17,11 +21,24 @@ header{
     min-width: 300px;
     margin-top: 6px;
 }
+.icon-mercado{
+    display: flex;
+}
+.icon-mercado p{
+    margin-left: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333776;
+    letter-spacing: 0.7px;
+    font-family: 'Harabara Mais';
+}
 .icon-marker{
     float: left;
 }
 .first-p{
     font-weight: lighter;
+    font-weight: 300;
+    color: #464c39
 }
 .last-p{
     font-weight: 400;

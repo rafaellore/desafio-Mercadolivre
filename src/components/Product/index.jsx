@@ -25,13 +25,49 @@ export default function Product() {
                 </div>
             </div>
         <div className="product-mid">
-                <div className="left-images">
-                    <div className="left-image"></div>
-                    <div className="left-image"></div>
-                    <div className="left-image"></div>
-                    <div className="left-image"></div>
+            <div className="left-content">
+                <div className="images-content">
+                    <div className="left-images">
+                        <div className="left-image"></div>
+                        <div className="left-image"></div>
+                        <div className="left-image"></div>
+                        <div className="left-image"></div>
+                    </div>
+                    <div className="active-image"></div>
                 </div>
-                <div className="active-image"></div>
+                <div className="more-products">
+                    <h1>Mais anúncios de Monumental Music</h1>
+                    <div className="more-products-items">
+                        <div className="more-products-item">
+                            <img src="https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_960_720.png" alt="" height="250px" width="200px"/>
+                            <div className="text-more">
+                                <p className="price-more">R$980</p>
+                                <p className="green-more">12x RS81 sem juros</p>
+                                <p className="green-more">frete grátis</p>
+                                <p className="description-more">Kit Guitarra Waldman + Capa + Correira + Cabo + Ampli Sheldon</p>
+                            </div>
+                        </div>
+                        <div className="more-products-item">
+                            <img src="https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_960_720.png" alt="" height="250px" width="200px"/>
+                            <div className="text-more">
+                                <p className="price-more">R$980</p>
+                                <p className="green-more">12x RS81 sem juros</p>
+                                <p className="green-more">frete grátis</p>
+                                <p className="description-more">Kit Guitarra Waldman + Capa + Correira + Cabo + Ampli Sheldon</p>
+                            </div>
+                        </div>
+                        <div className="more-products-item">
+                            <img src="https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_960_720.png" alt="" height="250px" width="200px"/>
+                            <div className="text-more">
+                                <p className="price-more">R$980</p>
+                                <p className="green-more">12x RS81 sem juros</p>
+                                <p className="green-more">frete grátis</p>
+                                <p className="description-more">Kit Guitarra Waldman + Capa + Correira + Cabo + Ampli Sheldon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="product-right">
                 <div className="product-right-item">
                     <div className="new-sold">
